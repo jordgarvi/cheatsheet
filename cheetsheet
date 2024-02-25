@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cheatsheet.css">
+        <title>CheatSheet-CodeAcademy</title>
+    </head>
+    <body>
+        <header>
+            <h1>Cheatsheet Table</h1>
+        </header>
+        <div class="Table">
+            <table>
+                <tr>
+                    <th scope="col">Tag</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Example Code</th>
+                </tr>
+                <tr>
+                    <td scope="row">&lt;!Doctype html&gt;</td>
+                    <td>&lt;!Doctype html&gt; declaration</td>
+                    <td>declaration is used at the beginning of 
+                        an HTML document to specify the <br>version of 
+                        HTML being used</td>
+                        <td>&lt;!Doctype html&gt;<br>&lt;html&gt;<br>&lt;/html&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;Link&gt;</td>
+                    <td>The Link Element</td>
+                    <td>element in HTML is used to link external resources,<br>
+                        to an HTML document. It is commonly used to link stylesheets,<br>
+                        but it can also be used to link other resources like icons,<br>
+                        scripts, or alternative stylesheets for different media types.</td>
+                        <td> &lt;link href='./style.css' rel='stylesheet'&gt;</td>
+                </tr>
+                <tr>
+                    <td>#582A72</td>
+                    <td>Hexadecimal Colors</td>
+                    <td>Colors specified using this system are called hex colors.<br>
+                        A hex color begins with a hash character<br>
+                        (#) which is followed by three or six characters.</td>
+                        <td class="bkcolor">background-color: #582A72;</td>
+                </tr>
+                <tr>
+                    <td>color: hsl(120, 60%, 70%);</td>
+                    <td>Hue, Saturation, and Lightness</td>
+                    <td>Hue referes to an angle on the color wheel.<br>
+                        Saturation refers to the intensity or purity of the color.<br>
+                        Lightness refers to how light or dark the color is.</td>
+                        <td class="hsl">background-color: #2D4471 <br>
+                            background-color: hsla(80, 70%, 30%, 0.3);</td>;
+                </tr>
+            </table>
+
+        </div>
+    </body>
+</html>
